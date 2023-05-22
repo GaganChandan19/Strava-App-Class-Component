@@ -19,7 +19,6 @@ export default class App extends Component {
               headerStyle: {backgroundColor: '#F9F9F9'},
               headerTitleStyle: {color: '#FC5200'},
             }}
-            
           >{(props)=><Login {...props}/>}</Stack.Screen>
           <Stack.Screen
             name="Activities"
